@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reports</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo">PM</div>
+      <span>Procurement</span>
+    </div>
+
+    <nav>
+      <a href="index.html">Dashboard</a>
+      <a href="vendors.html">Vendors</a>
+      <a href="orders.html">Purchase Orders</a>
+      <a class="active" href="reports.html">Reports</a>
+    </nav>
+  </aside>
+
+  <main class="main">
+    <h1>Reports</h1>
+    <p class="muted">Order summary overview</p>
+
+    <section class="stats">
+      <div class="stat">
+        <span>Total Orders</span>
+        <h2 id="totalOrders">0</h2>
+      </div>
+
+      <div class="stat">
+        <span>Approved Orders</span>
+        <h2 id="approvedOrders">0</h2>
+      </div>
+
+      <div class="stat">
+        <span>Pending Orders</span>
+        <h2 id="pendingOrders">0</h2>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script src="js/report.js"></script>
+</body>
+</html>

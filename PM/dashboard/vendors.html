@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Vendors</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="layout">
+  <aside class="sidebar">
+    <h2>PM</h2>
+    <nav>
+      <a href="index.html">Dashboard</a>
+      <a class="active" href="vendors.html">Vendors</a>
+      <a href="orders.html">Purchase Orders</a>
+      <a href="reports.html">Reports</a>
+    </nav>
+  </aside>
+
+  <main class="main">
+    <h1>Vendors</h1>
+    <p class="muted">Registered suppliers</p>
+
+    <div class="card">
+      <h3>Total Vendors: <span id="vendorCount">0</span></h3>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Vendor Name</th>
+          <th>Category</th>
+        </tr>
+      </thead>
+      <tbody id="vendorTable"></tbody>
+    </table>
+  </main>
+</div>
+
+<script src="js/vendor.js"></script>
+</body>
+</html>
